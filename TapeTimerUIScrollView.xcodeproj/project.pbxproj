@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA731F4C1A7DEB0900DF9B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA731F4B1A7DEB0900DF9B01 /* main.m */; };
+		CA731F4F1A7DEB0900DF9B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA731F4E1A7DEB0900DF9B01 /* AppDelegate.m */; };
+		CA731F521A7DEB0900DF9B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA731F511A7DEB0900DF9B01 /* ViewController.m */; };
+		CA731F551A7DEB0900DF9B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA731F531A7DEB0900DF9B01 /* Main.storyboard */; };
+		CA731F571A7DEB0900DF9B01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA731F561A7DEB0900DF9B01 /* Images.xcassets */; };
+		CA731F5A1A7DEB0900DF9B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA731F581A7DEB0900DF9B01 /* LaunchScreen.xib */; };
+		CA731F661A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA731F651A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA731F601A7DEB0900DF9B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA731F3E1A7DEB0900DF9B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA731F451A7DEB0900DF9B01;
+			remoteInfo = TapeTimerUIScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA731F461A7DEB0900DF9B01 /* TapeTimerUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapeTimerUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA731F4A1A7DEB0900DF9B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA731F4B1A7DEB0900DF9B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA731F4D1A7DEB0900DF9B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA731F4E1A7DEB0900DF9B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA731F501A7DEB0900DF9B01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA731F511A7DEB0900DF9B01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA731F541A7DEB0900DF9B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA731F561A7DEB0900DF9B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA731F591A7DEB0900DF9B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA731F5F1A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapeTimerUIScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA731F641A7DEB0900DF9B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA731F651A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapeTimerUIScrollViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA731F431A7DEB0900DF9B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA731F5C1A7DEB0900DF9B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA731F3D1A7DEB0900DF9B01 = {
+			isa = PBXGroup;
+			children = (
+				CA731F481A7DEB0900DF9B01 /* TapeTimerUIScrollView */,
+				CA731F621A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests */,
+				CA731F471A7DEB0900DF9B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA731F471A7DEB0900DF9B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA731F461A7DEB0900DF9B01 /* TapeTimerUIScrollView.app */,
+				CA731F5F1A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA731F481A7DEB0900DF9B01 /* TapeTimerUIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CA731F4D1A7DEB0900DF9B01 /* AppDelegate.h */,
+				CA731F4E1A7DEB0900DF9B01 /* AppDelegate.m */,
+				CA731F501A7DEB0900DF9B01 /* ViewController.h */,
+				CA731F511A7DEB0900DF9B01 /* ViewController.m */,
+				CA731F531A7DEB0900DF9B01 /* Main.storyboard */,
+				CA731F561A7DEB0900DF9B01 /* Images.xcassets */,
+				CA731F581A7DEB0900DF9B01 /* LaunchScreen.xib */,
+				CA731F491A7DEB0900DF9B01 /* Supporting Files */,
+			);
+			path = TapeTimerUIScrollView;
+			sourceTree = "<group>";
+		};
+		CA731F491A7DEB0900DF9B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA731F4A1A7DEB0900DF9B01 /* Info.plist */,
+				CA731F4B1A7DEB0900DF9B01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA731F621A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA731F651A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.m */,
+				CA731F631A7DEB0900DF9B01 /* Supporting Files */,
+			);
+			path = TapeTimerUIScrollViewTests;
+			sourceTree = "<group>";
+		};
+		CA731F631A7DEB0900DF9B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA731F641A7DEB0900DF9B01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA731F451A7DEB0900DF9B01 /* TapeTimerUIScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA731F691A7DEB0900DF9B01 /* Build configuration list for PBXNativeTarget "TapeTimerUIScrollView" */;
+			buildPhases = (
+				CA731F421A7DEB0900DF9B01 /* Sources */,
+				CA731F431A7DEB0900DF9B01 /* Frameworks */,
+				CA731F441A7DEB0900DF9B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapeTimerUIScrollView;
+			productName = TapeTimerUIScrollView;
+			productReference = CA731F461A7DEB0900DF9B01 /* TapeTimerUIScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA731F5E1A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA731F6C1A7DEB0900DF9B01 /* Build configuration list for PBXNativeTarget "TapeTimerUIScrollViewTests" */;
+			buildPhases = (
+				CA731F5B1A7DEB0900DF9B01 /* Sources */,
+				CA731F5C1A7DEB0900DF9B01 /* Frameworks */,
+				CA731F5D1A7DEB0900DF9B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA731F611A7DEB0900DF9B01 /* PBXTargetDependency */,
+			);
+			name = TapeTimerUIScrollViewTests;
+			productName = TapeTimerUIScrollViewTests;
+			productReference = CA731F5F1A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA731F3E1A7DEB0900DF9B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jialiang Xiang";
+				TargetAttributes = {
+					CA731F451A7DEB0900DF9B01 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CA731F5E1A7DEB0900DF9B01 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CA731F451A7DEB0900DF9B01;
+					};
+				};
+			};
+			buildConfigurationList = CA731F411A7DEB0900DF9B01 /* Build configuration list for PBXProject "TapeTimerUIScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA731F3D1A7DEB0900DF9B01;
+			productRefGroup = CA731F471A7DEB0900DF9B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA731F451A7DEB0900DF9B01 /* TapeTimerUIScrollView */,
+				CA731F5E1A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA731F441A7DEB0900DF9B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA731F551A7DEB0900DF9B01 /* Main.storyboard in Resources */,
+				CA731F5A1A7DEB0900DF9B01 /* LaunchScreen.xib in Resources */,
+				CA731F571A7DEB0900DF9B01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA731F5D1A7DEB0900DF9B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA731F421A7DEB0900DF9B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA731F521A7DEB0900DF9B01 /* ViewController.m in Sources */,
+				CA731F4F1A7DEB0900DF9B01 /* AppDelegate.m in Sources */,
+				CA731F4C1A7DEB0900DF9B01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA731F5B1A7DEB0900DF9B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA731F661A7DEB0900DF9B01 /* TapeTimerUIScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA731F611A7DEB0900DF9B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA731F451A7DEB0900DF9B01 /* TapeTimerUIScrollView */;
+			targetProxy = CA731F601A7DEB0900DF9B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA731F531A7DEB0900DF9B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA731F541A7DEB0900DF9B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA731F581A7DEB0900DF9B01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA731F591A7DEB0900DF9B01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA731F671A7DEB0900DF9B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA731F681A7DEB0900DF9B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA731F6A1A7DEB0900DF9B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapeTimerUIScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA731F6B1A7DEB0900DF9B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapeTimerUIScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA731F6D1A7DEB0900DF9B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapeTimerUIScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeTimerUIScrollView.app/TapeTimerUIScrollView";
+			};
+			name = Debug;
+		};
+		CA731F6E1A7DEB0900DF9B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TapeTimerUIScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeTimerUIScrollView.app/TapeTimerUIScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA731F411A7DEB0900DF9B01 /* Build configuration list for PBXProject "TapeTimerUIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA731F671A7DEB0900DF9B01 /* Debug */,
+				CA731F681A7DEB0900DF9B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA731F691A7DEB0900DF9B01 /* Build configuration list for PBXNativeTarget "TapeTimerUIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA731F6A1A7DEB0900DF9B01 /* Debug */,
+				CA731F6B1A7DEB0900DF9B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA731F6C1A7DEB0900DF9B01 /* Build configuration list for PBXNativeTarget "TapeTimerUIScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA731F6D1A7DEB0900DF9B01 /* Debug */,
+				CA731F6E1A7DEB0900DF9B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA731F3E1A7DEB0900DF9B01 /* Project object */;
+}
